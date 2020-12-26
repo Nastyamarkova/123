@@ -72,7 +72,9 @@ class Article extends \yii\db\ActiveRecord
 
     public function getImage()
     {
-        return ($this->image) ? '/uploads/' . $this->image : '/no-image.png';
+
+        return ($this->image) ? '/flowers_/web/uploads/' . $this->image : '/no-image.png';
+ 
     }
 
 
